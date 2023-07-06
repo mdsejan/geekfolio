@@ -97,7 +97,6 @@ p{
 }
 
 .about-container{
-    padding-right: 100px;
     display: flex;
     height: 70vh;
     justify-content: space-around;
@@ -116,6 +115,57 @@ p{
     text-align: center;
 }
 .about-img img{
-    width: 60%;
+    width: 50%;
     /* border: 2px solid red; */
+}
+
+/* Our Service's Style */
+.services{
+    margin-top: 15vh;
+    padding: 150px 0;
+    background-image: url(./images/background.png),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services .shead{
+    text-align: center;
+    font-size: 54px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.services-container{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box{
+    width: 20%;
+    height: 400px;
+    padding: 20px;
+    background-color: #2e2e2e50;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 2px 105px gray;
+}
+.box img{
+    width: 55px;
+    margin-bottom: 20px;
+}
+
+.box h1{
+    margin-bottom: 20px;
+}
+.box p{
+    text-align: center;
+}
+
+.box-btn {
+    background-color: black;
+    padding: 10px 30px;
 }
