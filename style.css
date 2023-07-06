@@ -60,6 +60,7 @@ p{
 .banner-container{
     height: 100vh;
     display: flex;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     color: white;
@@ -99,6 +100,7 @@ p{
 .about-container{
     display: flex;
     height: 70vh;
+    margin: 0 auto;
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
@@ -135,7 +137,7 @@ p{
     margin-bottom: 50px;
 }
 .services-container{
-    
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     
@@ -168,4 +170,44 @@ p{
 .box-btn {
     background-color: black;
     padding: 10px 30px;
+}
+
+/* Footer style */
+
+footer{
+    
+    background-color: black;
+    color: white;
+}
+
+.footer-container{
+    height: 250px;
+    padding: 100px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer-container .logo-area img{
+    width: 130px;
+}
+
+.logo-area {
+    width: 25%;
+}
+
+.footer-container h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer-container p{
+    margin-bottom: 10px;
+}
+
+.copy{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
 }
